@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Door2 : MonoBehaviour
+public class Door4 : MonoBehaviour
 {
     public string nextSceneName; // setezi numele scenei în Inspector
 
@@ -9,7 +9,7 @@ public class Door2 : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Scena3");
+            SceneManager.LoadScene("Scena7");
         }
     }
 }
